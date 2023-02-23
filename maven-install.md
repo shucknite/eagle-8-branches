@@ -27,10 +27,10 @@ The following are instructions for installing Apache Maven and Java 8 on an Amaz
     nano settings-security.xml
 
     add the content to above file after change above password from line 6
-    
+
 <?xml version="1.0"?>
 <settingsSecurity>
-<master>{admin}</master>
+<master>{}</master>
 </settingsSecurity>
     
 3. The Gremlin libraries require Java 8. Enter the following to install Java 8 on your EC2 instance.
