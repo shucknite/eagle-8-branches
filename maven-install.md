@@ -49,6 +49,7 @@ a. nano settings.xml
           xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
  <localRepository>/var/lib/jenkins/.m2/repository</localRepository>
+ 
 <servers>
 <server>
 <id>nexus</id>
