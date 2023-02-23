@@ -39,10 +39,7 @@ a. mvn -ep admin
 a. vi settings.xml
 
 
-7. We have to encrypt nexus password and update it in 9
-a. mvn -ep admin
-8. create settings.xml file
-a. vi settings.xml
+
     
 3. The Gremlin libraries require Java 8. Enter the following to install Java 8 on your EC2 instance.
 
