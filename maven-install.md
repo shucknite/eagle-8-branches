@@ -30,7 +30,7 @@ The following are instructions for installing Apache Maven and Java 8 on an Amaz
 
 <?xml version="1.0"?>
 <settingsSecurity>
-<master>{O4OsKtFoBCMH6Enyv1w7crgEv2AT+88mDxwT+fYIr64=}</master>
+     <master>{O4OsKtFoBCMH6Enyv1w7crgEv2AT+88mDxwT+fYIr64=}</master>
 </settingsSecurity>
 
 7. We have to encrypt nexus password and update it in 9
