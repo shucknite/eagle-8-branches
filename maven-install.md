@@ -49,9 +49,9 @@ a. nano settings.xml
           xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
  <localRepository>/var/lib/jenkins/.m2/repository</localRepository>
- 
+
 <servers>
-<server>
+   <server>
 <id>nexus</id>
 <username>admin</username>
 <password>{masbUk+Bov8HcIX0k9C5TZ0qvuPOlwusW7WUSn8kCLQ=}</password>
