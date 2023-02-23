@@ -37,7 +37,7 @@ The following are instructions for installing Apache Maven and Java 8 on an Amaz
 a. mvn -ep admin
 {masbUk+Bov8HcIX0k9C5TZ0qvuPOlwusW7WUSn8kCLQ=}
 8. create settings.xml file
-a.  settings.xml
+a. na settings.xml
 
 
 9. above file below content after change above password from line 6
