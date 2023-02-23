@@ -30,7 +30,7 @@ The following are instructions for installing Apache Maven and Java 8 on an Amaz
 
 <?xml version="1.0"?>
 <settingsSecurity>
-<master>{}</master>
+<master>{O4OsKtFoBCMH6Enyv1w7crgEv2AT+88mDxwT+fYIr64=}</master>
 </settingsSecurity>
     
 3. The Gremlin libraries require Java 8. Enter the following to install Java 8 on your EC2 instance.
