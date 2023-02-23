@@ -65,7 +65,28 @@ http://maven.apache.org/xsd/settings-1.0.0.xsd">
 </mirrors>
 </settings>
 
-
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;settings xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot;
+xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0
+http://maven.apache.org/xsd/settings-1.0.0.xsd&quot;&gt;
+&lt;localRepository&gt;/var/lib/jenkins/.m2/repository&lt;/localRepository&gt;
+&lt;servers&gt;
+&lt;server&gt;
+&lt;id&gt;nexus&lt;/id&gt;
+&lt;username&gt;admin&lt;/username&gt;
+&lt;password&gt;{admin}&lt;/password&gt;
+&lt;/server&gt;
+&lt;/servers&gt;
+&lt;mirrors&gt;
+&lt;mirror&gt;
+&lt;id&gt;nexus&lt;/id&gt;
+&lt;name&gt;nexus&lt;/name&gt;
+&lt;url&gt;http://13.235.132.119:8081/repository/maven_project/&lt;/url&gt;
+&lt;mirrorOf&gt;*&lt;/mirrorOf&gt;
+&lt;/mirror&gt;
+&lt;/mirrors&gt;
+&lt;/settings&gt;
 
 10. move above two files to /var/lib/jenkins/.m2
 a. mv settings.xml /var/lib/jenkins/.m2
