@@ -39,6 +39,7 @@ a. mvn -ep admin
 a. vi settings.xml
 
 
+
     
 3. The Gremlin libraries require Java 8. Enter the following to install Java 8 on your EC2 instance.
 
