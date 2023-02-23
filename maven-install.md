@@ -65,6 +65,8 @@ http://maven.apache.org/xsd/settings-1.0.0.xsd">
 </mirrors>
 </settings>
 
+
+
 10. move above two files to /var/lib/jenkins/.m2
 a. mv settings.xml /var/lib/jenkins/.m2
 b. mv settings-security.xml /var/lib/jenkins/.m2
