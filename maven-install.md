@@ -35,6 +35,7 @@ The following are instructions for installing Apache Maven and Java 8 on an Amaz
 
 7. We have to encrypt nexus password and update it in 9
 a. mvn -ep admin
+
 8. create settings.xml file
 a. vi settings.xml
 
