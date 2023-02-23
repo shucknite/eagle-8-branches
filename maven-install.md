@@ -39,7 +39,40 @@ a. mvn -ep admin
 a. vi settings.xml
 
 
-
+9. above file below content after change above password from line 6
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/POM/4.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+http://maven.apache.org/xsd/settings-1.0.0.xsd">
+<localRepository>/var/lib/jenkins/.m2/repository</localRepository>
+<servers>
+<server>
+<id>nexus</id>
+<username>admin</username>
+<password>{admin}</password>
+</server>
+</servers>
+<mirrors>
+<mirror>
+<id>nexus</id>
+<name>nexus</name>
+<url>http://13.235.132.119:8081/repository/maven_project/</url>
+<mirrorOf>*</mirrorOf>
+</mirror>
+</mirrors>
+</settings>
+10. move above two files to /var/lib/jenkins/.m2
+a. mv settings.xml /var/lib/jenkins/.m2
+b. mv settings-security.xml /var/lib/jenkins/.m2
+11. To check
+a. ls /var/lib/jenkins/.m2
+12. Get into the folder
+cd /var/lib/jenkins/.m2
+13. Change ownership of the 2 files
+a. chown jenkins:jenkins settings.xml settings-security.xml
+14. Change permissions of the 2 files
+a. chmod 755 settings.xml settings-security.xml
     
 3. The Gremlin libraries require Java 8. Enter the following to install Java 8 on your EC2 instance.
 
