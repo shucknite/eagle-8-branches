@@ -54,6 +54,7 @@ http://maven.apache.org/xsd/settings-1.0.0.xsd">
 <password>{admin}</password>
 </server>
 </servers>
+
 <mirrors>
 <mirror>
 <id>nexus</id>
