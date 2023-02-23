@@ -53,7 +53,7 @@ a. nano settings.xml
 <servers>
    <server>
         <id>nexus</id>
-<username>admin</username>
+        <username>admin</username>
 <password>{masbUk+Bov8HcIX0k9C5TZ0qvuPOlwusW7WUSn8kCLQ=}</password>
 </server>
 </servers>
