@@ -59,7 +59,7 @@ a. nano settings.xml
 </servers>
 
 <mirrors>
-<mirror>
+  <mirror>
 <id>nexus</id>
 <name>nexus</name>
 <url>http://13.235.132.119:8081/repository/maven_project/</url>
