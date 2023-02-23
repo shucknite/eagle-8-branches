@@ -27,6 +27,7 @@ The following are instructions for installing Apache Maven and Java 8 on an Amaz
     nano settings-security.xml
 
     add the content to above file after change above password from line 6
+    
 <?xml version="1.0"?>
 <settingsSecurity>
 <master>{admin}</master>
