@@ -52,7 +52,7 @@ http://maven.apache.org/xsd/settings-1.0.0.xsd">
 <server>
 <id>nexus</id>
 <username>admin</username>
-<password>{admin}</password>
+<password>{}</password>
 </server>
 </servers>
 
