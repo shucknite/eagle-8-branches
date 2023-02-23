@@ -66,6 +66,7 @@ a. nano settings.xml
       <mirrorOf>*</mirrorOf>
     </mirror>
 </mirrors>
+
 </settings>
 
 
