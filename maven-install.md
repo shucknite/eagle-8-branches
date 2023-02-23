@@ -80,7 +80,7 @@ a. ls /var/lib/jenkins/.m2
 cd /var/lib/jenkins/.m2
 13. Change ownership of the 2 files
 a. chown jenkins:jenkins settings.xml settings-security.xml
-   
+   chown jenkins:jenkins
 14. Change permissions of the 2 files
 a. chmod 755 settings.xml settings-security.xml
     
