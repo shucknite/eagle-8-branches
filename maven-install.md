@@ -14,6 +14,8 @@ The following are instructions for installing Apache Maven and Java 8 on an Amaz
 - Then you can use yum to install Maven.
 
     `sudo yum install -y apache-maven`
+
+    
 3. The Gremlin libraries require Java 8. Enter the following to install Java 8 on your EC2 instance.
 
     `sudo yum install java-1.8.0-devel`
