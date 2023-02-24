@@ -72,7 +72,7 @@ a. nano settings.xml
 
 
 10. move above two files to /var/lib/jenkins/.m2
-a. mv settings.xml /var/lib/jenkins/.m2
+a. mv settings.xml /var/lib/jenkins/.m2     
 b. mv settings-security.xml /var/lib/jenkins/.m2
 11. To check
 a. ls /var/lib/jenkins/.m2
